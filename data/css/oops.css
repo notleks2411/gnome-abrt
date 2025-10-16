@@ -84,3 +84,17 @@ GtkListBoxRow:selected, row:selected {
 .btn-report:active {
     background-color: #b3b3b3;
 }
+
+@media (prefers-color-scheme: dark) {
+    GtkListBoxRow:selected, row:selected {
+        background-color: #3584e4;
+    }
+
+    .app-menu-button:hover, .btn-report:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .app-menu-button:active, .btn-report:active {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+}
